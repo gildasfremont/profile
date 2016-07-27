@@ -44,9 +44,8 @@ a:hover {
 }
 
 .container {
-  width: 500px;
-  margin: auto;
-  margin-top: 30px;
+  width: 90%;
+  margin: 30px auto;
 }
 
 .card {
@@ -111,5 +110,15 @@ a:hover {
 }
 
 #page-content {
-  margin-left: 300px;
+  margin-left: 150px;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    display: none;
+  }
+
+  #page-content {
+    margin-left: 0px;
+}
 }
